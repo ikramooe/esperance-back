@@ -48,10 +48,18 @@ class Article extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
           
-            Text::make('Titre','titre'),
+            Text::make('Titre','titre')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
             Slug::make('Slug')->from('Titre'),
        
-            Trix::make('texte','description'),
+            Trix::make('texte','description')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
             Image::make('Image principale','image'),
             Text::make('Alt'),
 
