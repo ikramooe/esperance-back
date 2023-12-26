@@ -106,8 +106,8 @@
                     <div class="service-thumbnail d-flex flex-fill">
                         <img src="images/service-thumbnail01.png" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
-                            <h4>Specialised Service</h4>
-                            <p>Lorem ipsum dolor sit</p>
+                            <h4>Spécialiste en Ophtalmologie</h4>
+                          
                         </div>
                     </div>
                 </div>
@@ -116,8 +116,8 @@
                     <div class="service-thumbnail d-flex flex-fill">
                         <img src="images/service-thumbnail02.png" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
-                            <h4>24/7 Advanced Care</h4>
-                            <p>Lorem ipsum dolor sit</p>
+                            <h4>Disponibilité des médecins 7j/7</h4>
+                           
                         </div>
                     </div>
                 </div>
@@ -126,8 +126,8 @@
                     <div class="service-thumbnail border-0 d-flex flex-fill">
                         <img src="images/service-thumbnail03.png" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
-                            <h4>Get Result Online</h4>
-                            <p>Lorem ipsum dolor sit</p>
+                            <h4>Prise de rendez-vous en ligne</h4>
+                           
                         </div>
                     </div>
                 </div>
