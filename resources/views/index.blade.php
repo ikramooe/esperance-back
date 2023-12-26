@@ -104,7 +104,7 @@
                 <!-- Service Icon -->
                 <div class="col-md-4">
                     <div class="service-thumbnail d-flex flex-fill">
-                        <img src="images/service-thumbnail01.png" class="img-fluid" alt="#" />
+                        <img src="{{asset('images/service-thumbnail01.png')}}" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
                             <h4>Spécialiste en Ophtalmologie</h4>
                           
@@ -114,7 +114,7 @@
                 <!-- Service Icon 02 -->
                 <div class="col-md-4">
                     <div class="service-thumbnail d-flex flex-fill">
-                        <img src="images/service-thumbnail02.png" class="img-fluid" alt="#" />
+                        <img src="{{asset('images/service-thumbnail02.png')}}" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
                             <h4>Disponibilité des médecins 7j/7</h4>
                            
@@ -124,7 +124,7 @@
                 <!-- Service Icon 03 -->
                 <div class="col-md-4">
                     <div class="service-thumbnail border-0 d-flex flex-fill">
-                        <img src="images/service-thumbnail03.png" class="img-fluid" alt="#" />
+                        <img src="{{asset('images/service-thumbnail03.png')}}" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
                             <h4>Prise de rendez-vous en ligne</h4>
                            
