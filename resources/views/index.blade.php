@@ -160,13 +160,13 @@
                                         <div class="col-md-6">
                                             <div class="facilities blue">
                                                 <h3>1000+</h3>
-                                                <span>Happy Patients</span>
+                                                <span>Opérations</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="facilities green">
                                                 <h3>215+</h3>
-                                                <span>Expert Doctors</span>
+                                                <span>Médecins experts</span>
                                             </div>
                                         </div>
                                     </div>
@@ -174,13 +174,13 @@
                                         <div class="col-md-6">
                                             <div class="facilities yellow">
                                                 <h3>315+</h3>
-                                                <span>Hospital Rooms</span>
+                                                <span>Chambres</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="facilities gray">
-                                                <h3>106+</h3>
-                                                <span>Award Winner</span>
+                                                <h3>1000+</h3>
+                                                <span>Patients</span>
                                             </div>
                                         </div>
                                     </div>

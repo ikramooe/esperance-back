@@ -19,8 +19,8 @@ class Contact extends Template {
     {
         return [
 
-            Text::make('Adresse '),
-            Text::make('Email'),
+            Text::make('Adresse','adresse'),
+            Text::make('Email','email'),
             Text::make('Téléphone','telephone'),
 
 

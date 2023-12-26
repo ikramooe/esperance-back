@@ -10,7 +10,7 @@
                         @foreach ($services as $item)
                         <li>
                             <a href="/services/{{$item->slug}}">
-                                <img src="images/service-icon1.png" alt="#">
+                                <img src="{{asset('images/service-icon1.png')}}" alt="#">
                                 <span>{{$item->getTranslation('titre',app('lang'))}}</span>
                                 <i class="fas fa-arrow-right"></i>
                             </a>

@@ -178,10 +178,9 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="foot-contact-block">
-                        <img src="images/logo-blanc.png" class="img-fluid" alt="#" />
+                        <img src="{{asset('images/logo-blanc.png')}}" class="img-fluid" alt="#" />
                         <p>
-                            Lorem ipsum dolor sit amet, consect <br /> etur adipisicing elit, sed do eius mod <br />
-                            tempor incididunt ut labore et dolore<br /> magna aliqua. Ut enim ad minim
+                            Bienvenue à la Clinique Ophtalmologique l'Espérance, où votre vision est notre priorité, alliant expertise médicale et soins personnalisés.
                         </p>
                         <a href="tel:31234567890">
                             <h4><i class="fas fa-phone"></i>{{Page::option('contact')->telephone}}</h4>
