@@ -14,9 +14,7 @@
                             <p>{{ $article->created_at->format('M') }}</p>
                         </div>
                         <div class="blog-text-wrap border-0 pl-0 pr-0">
-                            <div class="blog-comment-top border-0">
-                              
-                            </div>
+                            
                             <h2>{{$article->getTranslation('titre',app('lang'))}}</h2>
                           
                             <p>{!! $article->getTranslation('description',app('lang')) !!} </p>
