@@ -274,10 +274,14 @@
                                 <div class="why-choose_list-content">
                                     @if(app('lang')=='fr')
                                     <h5>{{$item->attributes->titre->fr}}</h5>
+                                    @if(isset($item->attributes->description))
                                     <span>{{$item->attributes->description->fr}}</span>
+                                    @endif
                                     @else 
                                     <h5>{{$item->attributes->titre->ar}}</h5>
+                                    @if(isset($item->attributes->description))
                                     <span>{{$item->attributes->description->ar}}</span>
+                                    @endif
                                     @endif
 
                                 </div>
