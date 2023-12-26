@@ -86,9 +86,11 @@
                         <li>
                             <select class="custom-select form-control">
                                 <option selected>Selectionnez un Service</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                @foreach ($services as $item)
+                                <option value="{{$item->getTranslation('titre','fr')}}">{{$item->getTranslation('titre',app('lang'))}}</option>
+                              
+                                @endforeach
+                               
                             </select>
                         </li>
                         <li class="form-btn">

@@ -37,7 +37,7 @@
                 <div class="service-block yellow">
                     <img src="images/service-icon2.png" alt="#">
                     <h3>{{$item->getTranslation('titre',app('lang'))}}</h3>
-                    <p>{{$item->getTranslation('description',app('lang'))}}</p>
+                   
                     <a href="/services/{{$item->slug}}" class="btn btn-dark">@lang('Lire plus')</a>
                     <div class="service-bg-icon">
                         <img src="images/services-bg1.png" class="img-fluid" alt="#">
@@ -59,8 +59,8 @@
             <div class="col-md-12 col-lg-6">
                 <div class="appointment-form_wrap">
                     <div class="heading-style1">
-                        <span>Online Booking</span>
-                        <h2>Make an Appointment</h2>
+                        <span>Réservez a partir du site</span>
+                        <h2>Prenez un rendez-vous</h2>
                     </div>
                     <form action="#">
                         <div class="row">
@@ -108,14 +108,14 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group form-group-cutom">
-                                    <label for="exampleFormControlTextarea1">Your Message</label>
+                                    <label for="exampleFormControlTextarea1">Message</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="#" class="btn btn-success">BOOK NOW</a>
+                                <a href="#" class="btn btn-success">Envoyer</a>
                             </div>
                         </div>
                     </form>
@@ -124,13 +124,13 @@
             <div class="col-md-12 col-lg-6">
                 <div class="why-choose_block">
                     <div class="heading-style1 mb-0">
-                        <span>Why Us</span>
-                        <h2>Why Choose Us</h2>
+                        <span>Clinique l'esperance</span>
+                        <h2>Pourquoi choisir l'esperance ? </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eius mod tempor inc ididuntut</p>
                         <hr>
                     </div>
                     <div class="whychoose-wrap">
-                        <img src="images/icon1.png" alt="#">
+                        <img src="{{asset('images/icon1.png')}}" alt="#">
                         <div class="whychoose-text_block">
                             <h4>Fastest Growing Clinic</h4>
                             <p>Excepteur sint occaecat cupidatat non proident, su</p>
