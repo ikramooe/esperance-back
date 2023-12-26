@@ -135,31 +135,25 @@
                     <div class="whychoose-wrap">
                         <img src="{{asset('images/icon1.png')}}" alt="#">
                         <div class="whychoose-text_block">
-                            <h4>Fastest Growing Clinic</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, su</p>
+                            <h4>Clinique à la croissance la plus rapide</h4>
+                           
                         </div>
                     </div>
                     <div class="whychoose-wrap">
                         <img src="images/icon2.png" alt="#">
                         <div class="whychoose-text_block">
-                            <h4>Free Ambulance Servcice</h4>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitati</p>
+                            <h4>Service d'ambulance gratuit</h4>
+                           
                         </div>
                     </div>
                     <div class="whychoose-wrap">
                         <img src="images/icon3.png" alt="#">
                         <div class="whychoose-text_block">
-                            <h4>24/7 Working Time</h4>
-                            <p>Duis aute irure dolor in repr ehenderit in voluptate.</p>
+                            <h4>Temps de travail  7j/7</h4>
+                          
                         </div>
                     </div>
-                    <div class="whychoose-wrap mb-0">
-                        <img src="images/icon4.png" alt="#">
-                        <div class="whychoose-text_block">
-                            <h4>5 Star Customer Rating </h4>
-                            <p>Excepteur sint occaecat cupidatat non proident,</p>
-                        </div>
-                    </div>
+                  
                 </div>
             </div>
         </div>
