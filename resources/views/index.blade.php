@@ -34,7 +34,7 @@
                                 @endif
                                
                                
-                                <a href="/contact" class="btn btn-primary">Make Appointment</a>
+                                <a href="/contact" class="btn btn-primary">@lang('Prendre un rendez-vous')</a>
                               
                             </div>
                             <!--//End Slider Title -->
