@@ -126,7 +126,10 @@
                     <div class="heading-style1 mb-0">
                         <span>Clinique l'esperance</span>
                         <h2>Pourquoi choisir l'esperance ? </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eius mod tempor inc ididuntut</p>
+                        <p>
+                            Choisir l'Espérance, c'est opter pour une excellence médicale inégalée en ophtalmologie. 
+                            Notre équipe expérimentée allie savoir-faire et technologie de pointe pour offrir des soins spécialisés et personnalisés, plaçant la santé visuelle de chaque patient au cœur de nos préoccupations.
+                        </p>
                         <hr>
                     </div>
                     <div class="whychoose-wrap">
