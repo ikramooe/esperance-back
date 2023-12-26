@@ -1,0 +1,127 @@
+{
+    "title": "Index",
+    "created_at": "2023-12-25 11:00:00",
+    "updated_at": "2023-12-26 09:06:02",
+    "attributes": {
+        "slide": [
+            {
+                "layout": "wysiwyg",
+                "key": "OpLMUTyxl74aivrw",
+                "attributes": {
+                    "image": "HOJwZYMPaQcth0CQn0ujC3tvfZkdsHZmmtbEr4BN.jpg",
+                    "titre": {
+                        "fr": "Nous prenons de vos yeux",
+                        "ar": "\u0646\u062d\u0646 \u0646\u0639\u062a\u0646\u064a \u0628\u0639\u064a\u0646\u064a\u0643"
+                    },
+                    "description": {
+                        "fr": "",
+                        "ar": ""
+                    }
+                }
+            },
+            {
+                "layout": "wysiwyg",
+                "key": "A2xqJ4Z9w0RfWAUv",
+                "attributes": {
+                    "image": "ofEbYs1Xb3Azlchynbd0ebguau1fxLiF7xF9tF0b.jpg",
+                    "titre": {
+                        "fr": "Votre vision , notre experience ",
+                        "ar": "\u0631\u0624\u064a\u062a\u0643\u060c \u062a\u062c\u0631\u0628\u062a\u0646\u0627"
+                    },
+                    "description": {
+                        "fr": "",
+                        "ar": ""
+                    }
+                }
+            }
+        ],
+        "titre_pres": {
+            "fr": "Pr\u00e9sentation de la clinique",
+            "ar": "\u0639\u0631\u0636 \u0627\u0644\u0639\u064a\u0627\u062f\u0629"
+        },
+        "image_pres": "guSTxDm5JR4gGFpdd4of9tGahqbcoCoPBKyrxLst.jpg",
+        "description_pres": {
+            "fr": "<div>Bienvenue \u00e0 la clinique d'ophtalmologie \"l'esperance\" ,notre \u00e9quipe d\u00e9vou\u00e9e de professionnels de la vision est l\u00e0 pour offrir des soins de qualit\u00e9. De la correction de la vue aux interventions chirurgicales avanc\u00e9es, nous nous engageons \u00e0 am\u00e9liorer et pr\u00e9server votre sant\u00e9 oculaire. Prenez rendez- vous pour une exp\u00e9rience&nbsp; personnalis\u00e9e ax\u00e9e sur votre bien-\u00eatre visuel.<\/div>",
+            "ar": "<div dir=\"rtl\">\u0645\u0631\u062d\u0628\u064b\u0627 \u0628\u0643\u0645 \u0641\u064a \u0639\u064a\u0627\u062f\u0629 \u0637\u0628 \u0627\u0644\u0639\u064a\u0648\u0646 \"l\u2019Esperance\"\u060c \u0641\u0631\u064a\u0642\u0646\u0627 \u0627\u0644\u0645\u062a\u062e\u0635\u0635 \u0645\u0646 \u0645\u062a\u062e\u0635\u0635\u064a \u0627\u0644\u0631\u0624\u064a\u0629 \u0645\u0648\u062c\u0648\u062f \u0647\u0646\u0627 \u0644\u062a\u0642\u062f\u064a\u0645 \u0631\u0639\u0627\u064a\u0629 \u0639\u0627\u0644\u064a\u0629 \u0627\u0644\u062c\u0648\u062f\u0629. \u0645\u0646 \u062a\u0635\u062d\u064a\u062d \u0627\u0644\u0631\u0624\u064a\u0629 \u0625\u0644\u0649 \u0627\u0644\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u062c\u0631\u0627\u062d\u064a\u0629 \u0627\u0644\u0645\u062a\u0642\u062f\u0645\u0629\u060c \u0646\u062d\u0646 \u0645\u0644\u062a\u0632\u0645\u0648\u0646 \u0628\u062a\u062d\u0633\u064a\u0646 \u0635\u062d\u0629 \u0639\u064a\u0646\u064a\u0643 \u0648\u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u064a\u0647\u0627. \u062d\u062f\u062f \u0645\u0648\u0639\u062f\u064b\u0627 \u0644\u062a\u062c\u0631\u0628\u0629 \u0634\u062e\u0635\u064a\u0629 \u062a\u0631\u0643\u0632 \u0639\u0644\u0649 \u0635\u062d\u062a\u0643 \u0627\u0644\u0628\u0635\u0631\u064a\u0629.<\/div><div><br><\/div>"
+        },
+        "titre_serv": "{\"fr\":null,\"ar\":null}",
+        "text": "{\"fr\":null,\"ar\":null}",
+        "services2": "[]",
+        "titre_urg": {
+            "fr": "Pourquoi choisir L'esperance ?",
+            "ar": "\u0644\u0645\u0627\u0630\u0627 \u0627\u0644\u0627\u062e\u062a\u064a\u0627\u0631 \u0639\u064a\u0627\u062f\u0629 \u0627\u0644\u0623\u0645\u0644\u061f"
+        },
+        "text_urg": "{\"fr\":null,\"ar\":null}",
+        "medecins": [
+            {
+                "layout": "wysiwyg",
+                "key": "UptTdaxTukg5DHVF",
+                "attributes": {
+                    "nom": {
+                        "fr": "Dr Aous",
+                        "ar": ""
+                    },
+                    "specialite": {
+                        "fr": "R\u00e9tinologue",
+                        "ar": ""
+                    },
+                    "image": "ooqHEF1HuAF6O13RGCMVv4SMKtfKAcZp2quLDEqO.webp"
+                }
+            },
+            {
+                "layout": "wysiwyg",
+                "key": "JqNYVphpbICFPrns",
+                "attributes": {
+                    "nom": {
+                        "fr": "Dr Maarif",
+                        "ar": ""
+                    },
+                    "specialite": {
+                        "fr": "Chirurgien",
+                        "ar": ""
+                    },
+                    "image": "39WHohimZDTM21dnBxAoF8cxMdlLD5Wx8VpAdRL1.jpg"
+                }
+            },
+            {
+                "layout": "wysiwyg",
+                "key": "6wIZ7rn19HajEoIf",
+                "attributes": {
+                    "nom": {
+                        "fr": " Dr Hammoud",
+                        "ar": ""
+                    },
+                    "specialite": {
+                        "fr": "Chirurgien",
+                        "ar": ""
+                    },
+                    "image": "DUNhTui1kjWKVrpubt3TRC73kNyDbZRqvuudCMNP.webp"
+                }
+            },
+            {
+                "layout": "wysiwyg",
+                "key": "fdS9FCtMKl3IWdj5",
+                "attributes": {
+                    "nom": {
+                        "fr": "Dr Bestandji",
+                        "ar": ""
+                    },
+                    "specialite": {
+                        "fr": "Chirurgien",
+                        "ar": ""
+                    },
+                    "image": "3b02C79MIyEQLomnsDdqid2q6yXJB0y5GO5rymqg.webp"
+                }
+            }
+        ],
+        "points": [],
+        "titre_urg2": {
+            "fr": "Une urgence ? Contactez-nous",
+            "ar": "\u062d\u0627\u0644\u0629 \u0637\u0627\u0631\u0626\u0629 \u061f \u0627\u062a\u0635\u0644 \u0628\u0646\u0627"
+        },
+        "text_urg2": {
+            "fr": null,
+            "ar": null
+        }
+    }
+}
