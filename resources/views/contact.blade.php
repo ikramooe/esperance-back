@@ -8,7 +8,7 @@
                 <div class="sub-header_content">
                     <p>@lang('Contact')</p>
                     <h3></h3>
-                    <span><i>@lang('Accueil') / @lang('services')</i></span>
+                    <span><i>@lang('Accueil') / @lang('contact')</i></span>
                 </div>
             </div>
             <div class="col-md-6">
@@ -24,8 +24,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="contact-box">
-                    <p>Lorem ipsum dolor sit amet consect etur adipi sicing elit, sed do eiusm</p>
-                    <hr>
+                   
                     <div class="contact-title">
                         <h4>@lang('Informations de contact')</h4>
                         <i class="fas fa-phone-volume"></i>
