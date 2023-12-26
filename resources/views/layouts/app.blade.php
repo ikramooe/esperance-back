@@ -36,19 +36,19 @@
                     <div class="top-bar">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                             <a class="navbar-brand" href="/"><img src="images/logo.png" alt="#" style="height: 100px;width:180px;" /></a>
+                             <a class="navbar-brand" href="/"><img src="{{asset('images/logo.png')}}" alt="#" style="height: 100px;width:180px;" /></a>
                             </div>
                             <div class="col-md-9 d-flex align-items-end">
                                 <ul class="ml-auto">
                                     <li>
-                                        <img src="images/mail-icon.png" alt="#">
+                                        <img src="{{asset('images/mail-icon.png')}}" alt="#">
                                         <div>
                                             <span>@lang('Email')</span>
                                             <h4>{{Page::option('contact')->email}}</h4>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="images/call-icon.png" alt="#">
+                                        <img src="{{asset('images/call-icon.png')}}" alt="#">
                                         <div>
                                             <span>@lang('Téléphone')</span>
                                             <h4>{{Page::option('contact')->telephone}}</h4>
@@ -139,34 +139,34 @@
             <div class="row">
                 <div class="col-sm-4 col-md-3 col-lg-3">
                     <div class="counter-block">
-                        <img src="images/counter1.png" alt="#">
+                        <img src="{{asset('images/counter1.png')}}" alt="#">
                         <div class="counter-text">
                             <h2>60+</h2>
-                            <p>Expert Doctors</p>
+                            <p>Medecins experts</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 col-lg-3">
                     <div class="counter-block">
-                        <img src="images/counter2.png" alt="#">
+                        <img src="{{asset('images/counter2.png')}}" alt="#">
                         <div class="counter-text">
                             <h2>1000+</h2>
-                            <p>Happy Patients</p>
+                            <p>Opérations </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 col-lg-3">
                     <div class="counter-block">
-                        <img src="images/counter3.png" alt="#">
+                        <img src="{{asset('images/counter3.png')}}" alt="#">
                         <div class="counter-text">
                             <h2>150+</h2>
-                            <p>Award Winner</p>
+                            <p>Patients</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <div class="counter-btn_block">
-                        <a href="#" class="btn btn-success">BOOK NOW</a>
+                        <a href="/contact" class="btn btn-success">Réserver</a>
                     </div>
                 </div>
             </div>
