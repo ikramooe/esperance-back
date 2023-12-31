@@ -166,7 +166,7 @@
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <div class="counter-btn_block">
-                        <a href="/contact" class="btn btn-success">Réserver</a>
+                        <a href="/contact" class="btn btn-success">@lang('Réserver')</a>
                     </div>
                 </div>
             </div>

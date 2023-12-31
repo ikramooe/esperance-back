@@ -79,13 +79,13 @@
                 <div class="col-md-12">
                     <!-- booking form -->
                     <ul class="booking-form">
-                        <li><input type="text" class="form-control" placeholder="Nom complet " /><i
+                        <li><input type="text" class="form-control" placeholder=@lang('Nom complet') /><i
                                 class="fas fa-user"></i></li>
-                        <li><input type="text" class="form-control" placeholder="Téléphone" /><i
+                        <li><input type="text" class="form-control" placeholder=@lang('Téléphone') /><i
                                 class="fas fa-map-marker-alt"></i></li>
                         <li>
                             <select class="custom-select form-control">
-                                <option selected>Selectionnez un Service</option>
+                                <option selected>@lang('Selectionnez un Service')</option>
                                 @foreach ($services as $item)
                                 <option value="{{$item->getTranslation('titre','fr')}}">{{$item->getTranslation('titre',app('lang'))}}</option>
                               
@@ -94,7 +94,7 @@
                             </select>
                         </li>
                         <li class="form-btn">
-                            <a href="#" class="btn btn-success">Réserver</a>
+                            <a href="#" class="btn btn-success">@lang('Réserver')</a>
                         </li>
                     </ul>
                     <!--//End booking form -->
