@@ -101,7 +101,7 @@
                                     <textarea class="form-control" name="message" required
                                         placeholder="Message" id="" rows="3"></textarea>
                                     <i class="far fa-envelope"></i>
-                                    <button type="submit" class="btn btn-success">Message</button>
+                                    <button type="submit" class="btn btn-success">Envoyer</button>
                                 </div>
                             </div>
                         </div>
