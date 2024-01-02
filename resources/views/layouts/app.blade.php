@@ -183,10 +183,16 @@
                         <p>
                             Bienvenue à la Clinique Ophtalmologique l'Espérance, où votre vision est notre priorité, alliant expertise médicale et soins personnalisés.
                         </p>
-                        <a href="tel:31234567890">
+                        <a href="tel:{{Page::option('contact')->telephone}}">
                             <h4><i class="fas fa-phone"></i>{{Page::option('contact')->telephone}}</h4>
                         </a>
-                        <a href="mailto:info@mededin.com">
+                        <a href="tel:{{Page::option('contact')->telephone_2}}">
+                            <h4><i class="fas fa-phone"></i>{{Page::option('contact')->telephone_2}}</h4>
+                        </a>
+                        <a href="tel:{{Page::option('contact')->telephone_3}}">
+                            <h4><i class="fas fa-phone"></i>{{Page::option('contact')->telephone_3}}</h4>
+                        </a>
+                        <a href="mailto:{{Page::option('contact')->email}}">
                             <h4><i class="far fa-envelope"></i>{{Page::option('contact')->email}}</h4>
                         </a>
                     </div>
