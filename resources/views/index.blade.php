@@ -329,7 +329,7 @@
 
                             <div class="why-choose_list-content">
                                 <span>@lang('Téléphone')</span>
-                                <h3>{{Page::option('contact')->telephone}}</h3>
+                                <h3>{{Page::option('contact')->telephone}} / {{Page::option('contact')->telephone_2}} <br> {{Page::option('contact')->telephone_3}}</h3>
                             </div>
                         </div>
                         <div class="why-choose_list">
