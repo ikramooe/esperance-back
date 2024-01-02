@@ -177,7 +177,7 @@
     <footer>
         <div class="container container-custom">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col-sm-12 col-md-12 col-lg-5">
                     <div class="foot-contact-block">
                         <img src="{{asset('images/logo-blanc.png')}}" class="img-fluid" alt="#" />
                         <p>
@@ -197,7 +197,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
+                <div class="col-sm-6 col-md-4 col-lg-3 offset-lg-1">
                     <div class="foot-link-box">
                         <h4>Liens utiles</h4>
                         <ul>
@@ -222,7 +222,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="foot-link-box">
                         <h4>Nos services</h4>
                         <ul>
