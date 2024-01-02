@@ -52,7 +52,7 @@
                                         <div>
                                             <span>@lang('Téléphone')</span>
                                             <h4>{{Page::option('contact')->telephone}}</h4>
-                                            <h4>{{Page::option('contact')->telephone-2}}</h4>
+                                            <h4>{{Page::option('contact')->telephone_2}}</h4>
                                         </div>
                                     </li>
                                     <li class="appointment-btn">
@@ -116,7 +116,7 @@
                                     <a class="nav-link" href="{{Page::option('contact')->facebook}}" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{Page::option('contact')->twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a class="nav-link" href="{{Page::option('contact')->tiktok}}" target="_blank"><i class="fab fa-tiktok"></i></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{Page::option('contact')->instagram}}" target="_blank"><i class="fab fa-instagram"></i></a>

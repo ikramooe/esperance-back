@@ -23,14 +23,14 @@ class Contact extends Template {
             Text::make('Email','email'),
             Text::make('Téléphone','telephone'),
 
-            Text::make('Téléphone 2','telephone-2'),
-            Text::make('Téléphone 3','telephone-3'),
+            Text::make('Téléphone 2','telephone_2'),
+            Text::make('Téléphone 3','telephone_3'),
 
 
 
             Text::make('Facebook'),
-            Text::make('Twitter'),
-            Text::make('LinkedIn','linkedin'),
+            Text::make('Instagram'),
+            Text::make('Tiktok','tiktok'),
             
         ];
     }
