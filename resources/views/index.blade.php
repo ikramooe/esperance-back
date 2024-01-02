@@ -116,7 +116,7 @@
                     <div class="service-thumbnail d-flex flex-fill">
                         <img src="{{asset('images/service-thumbnail02.png')}}" class="img-fluid" alt="#" />
                         <div class="service-thumbnail_text">
-                            <h4>Disponibilité des médecins 7j/7</h4>
+                            <h4>Disponibilité des médecins 6j/7</h4>
                            
                         </div>
                     </div>
