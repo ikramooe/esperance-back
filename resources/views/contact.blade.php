@@ -31,6 +31,8 @@
                         <div class="contact-title_icon">
                             <p>@lang('Téléphone')</p>
                             <h6>{{Page::option('contact')->telephone}}</h6>
+                            <h6>{{Page::option('contact')->telephone_2}}</h6>
+                            <h6>{{Page::option('contact')->telephone_3}}</h6>
                         </div>
                     </div>
                     <div class="contact-title">
