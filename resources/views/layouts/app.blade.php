@@ -52,6 +52,7 @@
                                         <div>
                                             <span>@lang('Téléphone')</span>
                                             <h4>{{Page::option('contact')->telephone}}</h4>
+                                            <h4>{{Page::option('contact')->telephone-2}}</h4>
                                         </div>
                                     </li>
                                     <li class="appointment-btn">

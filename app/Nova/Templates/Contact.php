@@ -23,6 +23,8 @@ class Contact extends Template {
             Text::make('Email','email'),
             Text::make('Téléphone','telephone'),
 
+            Text::make('Téléphone 2','telephone-2'),
+            Text::make('Téléphone 3','telephone-3'),
 
 
 
