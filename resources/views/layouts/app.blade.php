@@ -137,7 +137,7 @@
                             <div class="ml-3">
                                 <select class="form-control ml-auto py-0 px-1" name="lng" id="lng" onchange="window.location='/locale/'+this.value" style="width: max-content;">
                                     <option value="fr" {{app('lang')=='fr' ? 'selected' : ''}}>FR</option>
-                                    <option value="ar" {{app('lang')=='ar' ? 'selected' : ''}}>AR</option>
+                                    <option value="ar" {{app('lang')=='ar' ? 'selected' : ''}} selected>AR</option>
                                 </select>
                             </div>
                         </div>
