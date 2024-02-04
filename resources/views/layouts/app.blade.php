@@ -50,13 +50,13 @@
                                     <li>
                                         <img src="{{asset('images/call-icon.png')}}" alt="#">
                                         <div>
-                                            <span>@lang('Téléphone')</span>
+                                            <span>@lang('TÃ©lÃ©phone')</span>
                                             <h4>{{Page::option('contact')->telephone}}</h4>
                                             <h4>{{Page::option('contact')->telephone_2}}</h4>
                                         </div>
                                     </li>
                                     <li class="appointment-btn">
-                                        <a href="/contact" class="btn btn-primary">@lang('Rendez-vous')</a>
+                                        <a href="/contact" class="btn btn-primary">@lang('Prendre Rendez-vous')</a>
                                       
                                     </li>
                                 </ul>
@@ -68,7 +68,7 @@
         </div>
     </section>
     <!--//End top bar -->
-    <div class="light nav-big">
+    <div class="light nav-big" style="background:#107fca !important">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -83,6 +83,14 @@
                                     <a class="nav-link " href="/" id="navbarDropdown3"
                                         role="button"  aria-haspopup="true"
                                         aria-expanded="false"> @lang('Accueil') </a>
+
+                                </li>
+
+
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="/qui-sommes-nous" id="navbarDropdown3"
+                                        role="button"  aria-haspopup="true"
+                                        aria-expanded="false"> @lang('Qui sommes nous ') </a>
 
                                 </li>
 
@@ -116,7 +124,9 @@
                                     <a class="nav-link" href="{{Page::option('contact')->facebook}}" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{Page::option('contact')->tiktok}}" target="_blank"><i class="fab fa-tiktok"></i></a>
+                                    <a class="nav-link" href="{{Page::option('contact')->tiktok}}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"></path>
+                                      </svg></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{Page::option('contact')->instagram}}" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -124,6 +134,12 @@
                               
                                
                             </ul>
+                            <div class="ml-3">
+                                <select class="form-control ml-auto py-0 px-1" name="lng" id="lng" onchange="window.location='/locale/'+this.value" style="width: max-content;">
+                                    <option value="fr" {{app('lang')=='fr' ? 'selected' : ''}}>FR</option>
+                                    <option value="ar" {{app('lang')=='ar' ? 'selected' : ''}}>AR</option>
+                                </select>
+                            </div>
                         </div>
                     </nav>
                     <!--//End Nav menu -->
@@ -142,8 +158,8 @@
                     <div class="counter-block">
                         <img src="{{asset('images/counter1.png')}}" alt="#">
                         <div class="counter-text">
-                            <h2>60+</h2>
-                            <p>Medecins experts</p>
+                            <h2>+15 000 </h2>
+                            <p>DÃ©collement de rÃ©tine</p>
                         </div>
                     </div>
                 </div>
@@ -151,8 +167,8 @@
                     <div class="counter-block">
                         <img src="{{asset('images/counter2.png')}}" alt="#">
                         <div class="counter-text">
-                            <h2>1000+</h2>
-                            <p>Opérations </p>
+                            <h2>+25 000</h2>
+                            <p>Cataractes </p>
                         </div>
                     </div>
                 </div>
@@ -160,14 +176,14 @@
                     <div class="counter-block">
                         <img src="{{asset('images/counter3.png')}}" alt="#">
                         <div class="counter-text">
-                            <h2>150+</h2>
+                            <h2>+1 M</h2>
                             <p>Patients</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <div class="counter-btn_block">
-                        <a href="/contact" class="btn btn-success">@lang('Réserver')</a>
+                        <a href="/contact" class="btn btn-success">@lang('RÃ©server')</a>
                     </div>
                 </div>
             </div>
@@ -181,7 +197,7 @@
                     <div class="foot-contact-block">
                         <img src="{{asset('images/logo-blanc.png')}}" class="img-fluid" alt="#" />
                         <p>
-                            Bienvenue à la Clinique Ophtalmologique l'Espérance, où votre vision est notre priorité, alliant expertise médicale et soins personnalisés.
+                            Bienvenue Ã  la Clinique Ophtalmologique l'EspÃ©rance, oÃ¹ votre vision est notre prioritÃ©, alliant expertise mÃ©dicale et soins personnalisÃ©s.
                         </p>
                         <a href="tel:{{Page::option('contact')->telephone}}">
                             <h4><i class="fas fa-phone"></i>{{Page::option('contact')->telephone}}</h4>
@@ -199,51 +215,33 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 offset-lg-1">
                     <div class="foot-link-box">
-                        <h4>Liens utiles</h4>
+                        <h4>@lang('Liens utiles')</h4>
                         <ul>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>
-                            </li>
+                            @if(Page::get('liens'))
+                               @foreach (json_decode(Page::get('liens')) as $item)
+                               <li>
+                                <a href="{{$item->attributes->lien}}"><i class="fas fa-angle-double-right"></i>{{$item->attributes->titre->fr}}</a>
+                                </li>
+                               @endforeach
+                            @endif
+                          
+                          
+                           
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="foot-link-box">
-                        <h4>Nos services</h4>
+                        <h4>@lang('Nos services')</h4>
                         <ul>
+                            @foreach (app('services') as $item)
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Pediatrics</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>{{$item->getTranslation('titre',app('lang'))}}</a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Dermatology</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Cardiology</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Psychological</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Surgery</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Family Medicine</a>
-                            </li>
+                            @endforeach
+                           
+                           
+                          
                         </ul>
                     </div>
                 </div>
@@ -252,7 +250,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© esperance 2023 Allright Reserved</p>
+                        <p>Â© esperance 2023 Allright Reserved</p>
                         <a href="#" id="scroll"><i class="fas fa-angle-double-up"></i></a>
                     </div>
                 </div>
