@@ -3,17 +3,10 @@
 namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
-use Whitecube\NovaFlexibleContent\Flexible;
-use Mdixon18\Fontawesome\Fontawesome;
-
-use Laravel\Nova\Panel;
 use Laravel\Nova\Fields\Trix;
-use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Textarea;
-use Laravel\Nova\Fields\Select;
-
 use Laravel\Nova\Fields\Image;
+
 use Whitecube\NovaPage\Pages\Template;
 
 class About extends Template {
@@ -26,7 +19,53 @@ class About extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+            Text::make('Titre')
+            ->translatable([
+                'fr' => 'Français',
+                  'ar' => 'العربية',
+              ]),
+            Trix::make('Text')
+            ->translatable([
+                'fr' => 'Français',
+                  'ar' => 'العربية',
+              ]),
+            Image::make('Image'),
+
+            Titre::make('Titre mission','titre_mission')
+            ->translatable([
+                'fr' => 'Français',
+                  'ar' => 'العربية',
+              ]),
+            Trix::make('Text mission','text_mission')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
+
+
+            Titre::make('Titre vision','titre_vision')
+            ->translatable([
+                'fr' => 'Français',
+                  'ar' => 'العربية',
+              ]),
+            Trix::make('Text vision','text_vision')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
+
+            Titre::make('Titre valeurs','titre_valeurs')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
+            Trix::make('Text valeurs','text_valeurs')
+            ->translatable([
+                'fr' => 'Français',
+                'ar' => 'العربية',
+              ]),
+        ];
     }
 
     /**
