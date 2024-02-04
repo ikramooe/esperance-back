@@ -44,7 +44,7 @@ class About extends Template {
               ]),
 
 
-            Titre::make('Titre vision','titre_vision')
+            Text::make('Titre vision','titre_vision')
             ->translatable([
                 'fr' => 'Français',
                   'ar' => 'العربية',
@@ -55,7 +55,7 @@ class About extends Template {
                 'ar' => 'العربية',
               ]),
 
-            Titre::make('Titre valeurs','titre_valeurs')
+            Text::make('Titre valeurs','titre_valeurs')
             ->translatable([
                 'fr' => 'Français',
                 'ar' => 'العربية',
