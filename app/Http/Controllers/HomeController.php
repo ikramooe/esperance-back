@@ -11,6 +11,7 @@ class HomeController extends Controller
 {
     public function index(){
         $services = Service::get();
+        dd($services);
         $articles = Article::latest()->take(5)->get();
 
         return view('index',compact('services','articles'));
